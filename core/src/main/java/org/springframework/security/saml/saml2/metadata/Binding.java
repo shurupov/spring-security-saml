@@ -38,7 +38,8 @@ public enum Binding {
 	DISCOVERY("urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol"),
 	REQUEST_INITIATOR("urn:oasis:names:tc:SAML:profiles:SSO:request-init"),
 	SAML_1_0_BROWSER_POST("urn:oasis:names:tc:SAML:1.0:profiles:browser-post"),
-	SAML_1_0_BROWSER_ARTIFACT("urn:oasis:names:tc:SAML:1.0:profiles:artifact-01"),;
+	SAML_1_0_BROWSER_ARTIFACT("urn:oasis:names:tc:SAML:1.0:profiles:artifact-01"),
+	SHIBBOLETH_2_0_AUTHNREQUEST("urn:mace:shibboleth:2.0:profiles:AuthnRequest"),;
 
 
 	private final String urn;

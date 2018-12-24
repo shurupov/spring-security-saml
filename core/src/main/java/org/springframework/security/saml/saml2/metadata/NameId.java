@@ -37,7 +37,8 @@ public enum NameId {
 	WIN_DOMAIN_QUALIFIED("urn:oasis:names:tc:SAML:1.1:nameid-format:WindowsDomainQualifiedName"),
 	KERBEROS("urn:oasis:names:tc:SAML:2.0:nameid-format:kerberos"),
 	ENTITY("urn:oasis:names:tc:SAML:2.0:nameid-format:entity"),
-	ENCRYPTED("urn:oasis:names:tc:SAML:2.0:nameid-format:encrypted");
+	ENCRYPTED("urn:oasis:names:tc:SAML:2.0:nameid-format:encrypted"),
+	SHIBBOLETH_1_0_NAME_IDENTIFIER("urn:mace:shibboleth:1.0:nameIdentifier"),;
 
 	private final String urn;
 
